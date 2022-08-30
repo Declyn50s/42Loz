@@ -1,0 +1,62 @@
+Aide memoire
+Touch
+La touche q pour quitter manuel ou page
+
+Chmod = changer les droits - u g o - user group others
+Chmod
+
+Ls -l = liste et parametre
+Cat = contenu du fichier
+Mkdir = créer un dossier
+Touch = modifier date ou créer un fichier
+___________
+Vim pour entrer dans fichier 
+Appuyer sur 'i' pour éditer
+Appuyer sur 'esc' pour stopper éditer
+Appuyer sur ':' pour skip
+Appuyer sur 'x' pour enregistrer et quitter
+___________________
+ Creer fichier a rendre tar -cf testShell00.tar testShell00
+___________________
+rwx rw- r-- 421 420 400 764
+--
+Chmod  764 test
+
+Lien symbolic
+
+Ln -s test0 test6
+Touch -h -t 20220601 pour les liens symbolique
+
+git log -5 --pretty=%H
+__________________
+Transf dans shell00
+Git add *
+Git commit -m "origin"
+Git push
+___________________
+
+Id g 
+
+___________________
+CARACTERE SPECIAUX
+src=https://forum.ubuntu-fr.org/viewtopic.php?id=1328001
+
+On parle d'échappement des caractères (« \ » est le caractère d'échappement).
+Dans ma première suggestion tu dois échapper tous les caractères :
+
+' : sert à l'échappement absolu ('mon texte')
+
+" : sert à l'échappement relatif ("ma ${VARIABLE}")
+
+$ : indique une ${VARIABLE}
+
+? : métacaractère indiquant n'importe quel caractère
+
+? : métacaractère indiquant une suite n'importe quels caractères
+
+\ : caractère d'échappement
+
+La seconde suggestion est la syntaxe d'échappement ANSI C. Seuls « " », « ' » et « \ » doivent être échappés (plus quelques autres caractères non mentionnés ici).
+
+Example : touch $'"\?$*’MaRViN’*$?\"'
+
