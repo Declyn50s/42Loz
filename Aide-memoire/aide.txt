@@ -60,3 +60,6 @@ La seconde suggestion est la syntaxe d'échappement ANSI C. Seuls « " », �
 
 Example : touch $'"\?$*’MaRViN’*$?\"'
 
+______________
+https://www.youtube.com/playlist?list=PLVQYiy6xNUxxhvwi0PGmXb5isUdVwmsg8
+https://www.youtube.com/watch?v=1RuoZeKXWQY&list=PLVQYiy6xNUxz5wbzZn4tfUhF4djgzscB-
