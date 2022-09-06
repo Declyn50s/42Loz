@@ -1,1 +1,1 @@
-git status -s --ignored
+git ls-files --others -i --exclude-standard
