@@ -23,3 +23,11 @@ void	ft_putstr(char *str)
 		i++;
 	}
 }
+/*
+int	main(void)
+{
+	char	*str;
+	
+	str = "salut";
+	ft_putstr(str);
+}*/
