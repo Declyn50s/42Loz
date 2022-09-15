@@ -21,3 +21,12 @@ int	ft_strlen(char *str)
 	}
 	return (i);
 }
+/*
+#include <stdio.h>
+
+int	main(void)
+{
+	char	*str;
+	str = "Derval";
+	printf("Il y a %d lettres dans le prenom Derval", ft_strlen(str));
+}/*
