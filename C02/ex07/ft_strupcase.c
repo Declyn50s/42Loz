@@ -25,3 +25,14 @@ char	*ft_strupcase(char *str)
 	}
 	return (str);
 }
+/*
+#include <stdio.h>
+
+int main(void)
+{
+	char str1[] = "Salut les gars Comment WWwww 000 !";
+	printf("Avant: %s \n", str1);
+	printf("Apres: %s ", ft_strupcase(str1));
+
+	return (0);
+}*/
