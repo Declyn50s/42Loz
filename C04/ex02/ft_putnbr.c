@@ -19,27 +19,24 @@ void	ft_putchar(char c)
 
 void	ft_putnbr(int nb)
 {
-	char	nb_c[10];
-	long	nb_l;
-	int		i;
-
-	if (nb == 0)
-		ft_putchar('0');
+	if (nb == -2147483648)
+	{
+		ft_putchar('-');
+		ft_putchar('2');
+		nb = 147483648;
+	}
 	if (nb < 0)
 	{
 		ft_putchar('-');
-		nb_l = nb;
-		nb_l = -nb_l;
+		nb *= -1;
+	}
+	if (nb >= 10)
+	{
+		ft_putnbr(nb / 10);
+		ft_putnbr(nb % 10);
 	}
 	else
-		nb_l = nb;
-	i = 0;
-	while (nb_l > 0)
 	{
-		nb_c[i] = nb_l % 10 + '0';
-		nb_l /= 10;
-		i++;
+		ft_putchar(nb + 48);
 	}
-	while (--i >= 0)
-		ft_putchar(nb_c[i]);
 }
