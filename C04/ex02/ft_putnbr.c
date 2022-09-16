@@ -45,3 +45,16 @@ int	main(void)
 {
 	ft_putnbr(42);
 }*/
+
+/*
+int	main(void)
+{
+int i = -21;
+
+while (i < 43)
+	{
+	ft_putbnr(i);
+	ft_putchar('\n');
+	i++;
+	}
+}*/
