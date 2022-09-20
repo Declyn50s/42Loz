@@ -1,0 +1,18 @@
+Nom de l'affectation : aff_first_param
+Fichiers attendus : aff_first_param.c
+Fonctions autorisées : write
+--------------------------------------------------------------------------------
+
+Ecrivez un programme qui prend des chaînes de caractères comme arguments, et affiche son premier
+argument suivi d'une \n.
+
+Si le nombre d'arguments est inférieur à 1, le programme affiche \n.
+
+Exemple :
+
+$> ./aff_first_param vincent mit "l'ane" dans un pre et "s'en" vint | cat -e
+vincent$
+$> ./aff_first_param "j'aime le fromage de chevre" | cat -e
+j'aime le fromage de chevre$
+$> ./aff_first_param
+$

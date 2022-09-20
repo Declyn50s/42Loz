@@ -1,0 +1,7 @@
+Dossier de rendu : ft_putstr
+Fichiers à rendre : ft_putstr.c
+Fonctions Autorisées : write
+Écrire une fonction qui affiche une chaine de caractères à l’écran.
+Elle devra être prototypée de la façon suivante :
+
+void ft_putstr(char *str);

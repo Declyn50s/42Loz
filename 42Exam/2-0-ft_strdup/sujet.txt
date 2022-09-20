@@ -1,0 +1,6 @@
+Dossier de rendu : C07/00
+Fichiers à rendre : ft_strdup.c
+Fonctions Autorisées : malloc
+• Reproduire à l’identique le fonctionnement de la fonction strdup (man strdup).
+• Elle devra être prototypée de la façon suivante : 
+char *ft_strdup(char *src);

@@ -1,0 +1,6 @@
+Nom de l'affectation : only_a
+Fichiers attendus : only_a.c
+Fonctions autorisées : write
+--------------------------------------------------------------------------------
+
+Ecrivez un programme qui affiche un caractère 'a' sur la sortie standard.

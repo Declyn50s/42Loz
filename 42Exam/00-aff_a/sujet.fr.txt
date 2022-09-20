@@ -1,0 +1,17 @@
+Nom de l'affectation : aff_a
+Fichiers attendus : aff_a.c
+Fonctions autorisées : write
+--------------------------------------------------------------------------------
+
+Ecrivez un programme qui prend une chaîne de caractères, et affiche le premier caractère 'a' qu'il qu'il rencontre, suivi d'un saut de ligne. S'il n'y a pas de caractères 'a' dans la chaîne chaîne de caractères, le programme écrit simplement une nouvelle ligne. Si le nombre de paramètres est différent de 1, le programme affiche 'a' suivi d'une nouvelle ligne.
+
+Exemple :
+
+$> ./aff_a "abc" | cat -e
+a$
+$> ./aff_a "dubO a POIL" | cat -e
+a$
+$> ./aff_a "zz sent le poney" | cat -e
+$
+$> ./aff_a | cat -e
+a$

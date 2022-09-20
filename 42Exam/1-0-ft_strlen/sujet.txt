@@ -1,0 +1,7 @@
+ft_strlen
+Dossier de rendu : ft_strlen
+Fichiers à rendre : ft_strlen.c
+Fonctions Autorisées : Aucune
+Écrire une fonction qui compte le nombre de caractères dans une chaîne de caractères et qui retourne le nombre trouvé.
+Elle devra être prototypée de la façon suivante :
+int ft_strlen(char *str);

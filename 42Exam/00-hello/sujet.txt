@@ -1,0 +1,14 @@
+Nom de l'affectation : hello
+Fichiers attendus : hello.c
+Fonctions autorisées : write
+--------------------------------------------------------------------------------
+
+Ecrivez un programme qui affiche "Hello World !" suivi d'une \n.
+
+Exemple :
+
+$>./hello
+Bonjour le monde !
+$>./hello | cat -e
+Hello World!$
+$>

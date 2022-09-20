@@ -1,0 +1,7 @@
+Dossier de rendu : ft_swap
+Fichiers à rendre : ft_swap.c
+Fonctions Autorisées : Aucune
+Écrire une fonction qui échange le contenu de deux entiers dont les adresses sont
+données en paramètres.
+Elle devra être prototypée de la façon suivante :
+void ft_swap(int *a, int *b);

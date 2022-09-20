@@ -1,0 +1,12 @@
+Nom de l'affectation : maff_alpha
+Fichiers attendus : maff_alpha.c
+Fonctions autorisées : write
+--------------------------------------------------------------------------------
+
+Ecrivez un programme qui affiche l'alphabet, avec les lettres paires en majuscules et les lettres impaires en minuscules, suivies d'une nouvelle ligne.
+les lettres impaires en minuscules, suivies d'une nouvelle ligne.
+
+Exemple :
+
+$> ./maff_alpha | cat -e
+aBcDeFgHiJkLmNoPqRsTuVwXyZ$
