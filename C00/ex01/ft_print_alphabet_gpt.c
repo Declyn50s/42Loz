@@ -11,6 +11,12 @@ void ft_print_alphabet(void)
 }
 
 /*
+int	main(void)
+{
+	ft_print_alphabet();
+}*/
+
+/*
 Explications :
 La fonction ft_print_alphabet ne prend aucun argument (void) et ne renvoie rien (void).
 On initialise une variable letter à la valeur 'a', qui représente la première lettre de l'alphabet en minuscule.
